@@ -1,0 +1,5 @@
+{
+  "name": "IronTrack",
+  "description": "A modern full-stack workout tracker with strength progress visualization and personal record tracking.",
+  "requestFramePermissions": []
+}
