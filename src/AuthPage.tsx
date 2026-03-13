@@ -13,7 +13,7 @@ export const AuthPage: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
-    const endpoint = isLogin ? '/api/login' : '/api/signup';
+    const endpoint = isLogin ? '/api/auth/login' : '/api/auth/signup';
     const body = isLogin ? { email, password } : { email, password, name };
 
     try {
